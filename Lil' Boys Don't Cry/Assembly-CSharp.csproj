@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BattleScript.cs" />
      <Compile Include="Assets\Scripts\MomAndPop.cs" />
      <None Include="Assets\Scripts\mom_pop_dialogue.txt" />
  <Reference Include="UnityEngine.UI">

@@ -32,7 +32,7 @@ public class MomAndPop : MonoBehaviour {
 	void Update () {
 
 		if(counter == textLines.Length - 2) {
-			style.fontSize = 24;
+			style.fontSize = 20;
 			style.fontStyle = FontStyle.Bold;
 		} else if(counter == textLines.Length -1 && !shartDisplayed) {
 			Instantiate(shart);
